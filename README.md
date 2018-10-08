@@ -26,7 +26,7 @@ The random forests algorithm is an effective supervised classification technique
 
 Here, we use the random forests algorithm with field data to classify vegetation using Landsat 8 Surface Reflectance data.
 
-`vegClassification.R` is a generic R-script containing a useful `vegClassify` function: https://github.com/AtreyaSh/vegMonitor/blob/master/vegClassification.R
+`vegClassification.R` is a generic R-script containing a useful `vegClassify` function: [vegClassification.R](/vegClassification.R)
 
 ```r
 vegClassify(imgVector, baseShapefile, bands = NULL, responseCol = "OBJECTID", predShapefile = NULL,
@@ -75,7 +75,7 @@ Note: 1 represents confierous forests, 2 represents broad-leaved forests, 3 repr
 
 In order to conduct vegetation loss detection, we use a rasterized Mann-Whitney change detection technique. The Mann-Whitney U test is a non-parametric statistical test for independent data samples and is particularly used for ordinal data.
 
-`vegLossDetection.R` is a generic R-script containing a useful `vegLossDetection` function: https://github.com/AtreyaSh/vegMonitor/blob/master/vegLossDetection.R
+`vegLossDetection.R` is a generic R-script containing a useful `vegLossDetection` function: [vegLossDetection.R](/vegLossDetection.R)
 
 ```r
 vegLossDetection(imgVector, grouping, coarse = TRUE, test = "generic.change", pval = 0.05,
