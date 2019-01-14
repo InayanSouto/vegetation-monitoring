@@ -2,7 +2,7 @@
 
 ## Investigating losses in vegetation cover using remote sensing data and the Random Forests algorithm
 
-This is a project which summarizes remote sensing data processing techniques in order to extract key vegetation data and indications about vegetation changes.
+This is a project which summarizes remote sensing data processing techniques in order to extract key vegetation data and indications about vegetation changes. These methods have been used in the following paper/thesis (https://github.com/AtreyaSh/remoteSensingThesis).
 
 ## Case study and objectives
 
