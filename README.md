@@ -2,7 +2,7 @@
 
 ## Investigating losses in vegetation cover using remote sensing data and the Random Forests algorithm
 
-This is a project which summarizes remote sensing data processing techniques in order to extract key vegetation data and indications about vegetation changes. These methods have been used in the following paper/thesis (https://github.com/atreyasha/remoteSensingThesis).
+This is a project which summarizes remote sensing data processing techniques in order to extract key vegetation data and indications about vegetation changes. These methods have been used in the following paper/thesis (https://github.com/atreyasha/remote-sensing-thesis).
 
 ## Case study and objectives
 
@@ -18,7 +18,7 @@ Firstly, we need to download relevant remote-sensing data for our purpose. The t
 
 In order to overcome these issues, we propose using the Google Earth Engine (GEE). The Google Earth Engine is essentially a Javascript-based API hosted on Google's infrastructure. This API allows us to query a large volume of Earth observation datasets and to pre-process them before downloading. This provides an efficient means of data-processing for our needs. Here, we choose to download the Landsat 8 Surface Reflectance data. 
 
-For a detailed look on how to acquire and pre-process remote sensing data, please refer to the following GitHub repository: https://github.com/atreyasha/geeBulkFilter
+For a detailed look on how to acquire and pre-process remote sensing data, please refer to the following GitHub repository: https://github.com/atreyasha/gee-landsat-filter
 
 ### 2. Supervised vegetation classification using field data and the Random Forests algorithm
 
