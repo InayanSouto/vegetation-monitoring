@@ -1,4 +1,4 @@
-# vegMonitor 
+# vegetation-monitoring
 
 ## Investigating losses in vegetation cover using remote sensing data and the Random Forests algorithm
 
