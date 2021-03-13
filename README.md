@@ -29,8 +29,9 @@ Here, we use the random forests algorithm with field data to classify vegetation
 `vegClassification.R` is a generic R-script containing a useful `vegClassify` function: [vegClassification.R](/vegClassification.R)
 
 ```r
-vegClassify(imgVector, baseShapefile, bands = NULL, responseCol = "OBJECTID", predShapefile = NULL,
-            undersample = TRUE, predImg = TRUE, ntry = 500, genLogs = TRUE, writePath = NULL, format = NULL)
+vegClassify(imgVector, baseShapefile, bands = NULL, responseCol = "OBJECTID",
+            predShapefile = NULL, undersample = TRUE, predImg = TRUE, ntry = 500,
+            genLogs = TRUE, writePath = NULL, format = NULL)
 ```
 
 **Arguments**
